@@ -1,0 +1,304 @@
+/* for page builder */
+.review-stars{ margin: 0 0; list-style: none; overflow: hidden; }
+.review-stars-rated{ width: 90px; position: relative; display: inline-block; }
+.review-stars-rated .review-stars.empty,
+.review-stars-rated .review-stars.filled{ width: 120px; height: 24px; font-family: dashicons; font-size: 18px; }
+.review-stars-rated .review-stars.empty:before{ content: '\f154\f154\f154\f154\f154'; line-height: 1; vertical-align: top; white-space: nowrap; }
+.review-stars-rated .review-stars.filled:before{ content: '\f155\f155\f155\f155\f155'; line-height: 1; vertical-align: top; white-space: nowrap; }
+.review-stars-rated .review-stars.filled{ position: absolute; top: 0; left: 0; }
+
+.content-item-scrollable [data-gdlr-animation="fadeIn"], 
+.content-item-scrollable [data-gdlr-animation="fadeInDown"],
+.content-item-scrollable [data-gdlr-animation="fadeInUp"], 
+.content-item-scrollable [data-gdlr-animation="fadeInLeft"], 
+.content-item-scrollable [data-gdlr-animation="fadeInRight"]{ opacity: 1; }
+.content-item-scrollable .gdlr-core-page-builder-body{ margin-bottom: 50px; }
+.content-item-scrollable .gdlr-core-page-builder-body *{ box-sizing: border-box; }
+
+/* course left thumbnail */
+.yoku-lp-course-left-thumbnail{ margin-bottom: 60px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-thumbnail-wrap{ max-width: 30%; margin-right: 60px; float: left; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-thumbnail{ overflow: hidden;
+    border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-content-wrap{ overflow: hidden; padding-top: 20px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-more-button{ font-size: 13px; font-weight: 600; 
+	text-transform: uppercase; display: block; margin-top: 8px; padding: 15px 20px; text-align: center;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-more-button,
+.yoku-lp-course-left-thumbnail .yoku-lp-course-more-button:hover{ color: #fff; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-title{ font-size: 24px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-excerpt{ font-size: 18px; }
+
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-wrap{ margin-bottom: 32px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-wrap .yoku-lp-course-info{ float: left; margin-right: 25px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-wrap .yoku-head:after{ content: ":"; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-wrap .yoku-head{ display: inline; font-weight: 500; margin-right: 6px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-wrap .yoku-tail{ display: inline; font-weight: 600; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-wrap .yoku-type-review .yoku-tail{ font-weight: 500; }
+.yoku-lp-course-left-thumbnail .yoku-type-review .yoku-head{ display: none; }
+.yoku-lp-course-left-thumbnail .review-stars-rated{ vertical-align: middle; width: 72px; margin-right: 7px; margin-bottom: -5px; }
+.yoku-lp-course-left-thumbnail .review-stars-rated .review-stars.empty, 
+.yoku-lp-course-left-thumbnail .review-stars-rated .review-stars.filled{ height: auto; font-size: 12px; letter-spacing: 3px; }
+
+.yoku-lp-course-left-thumbnail .yoku-lp-course-info-bottom-wrap{ margin-top: 37px; position: relative; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info{ float: left; margin-left: 34px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info-content{ margin-left: 34px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info-divider{ position: absolute; top: 0px; bottom: 0px; border-left-width: 1px; border-left-style: solid; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info:first-child{ margin-left: 0px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info:first-child .yoku-lp-course-bottom-info-content{ margin-left: 0px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info:first-child .yoku-lp-course-bottom-info-divider{ display: none; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info.yoku-type-teacher .yoku-head{ font-size: 16px; font-weight: 500; line-height: 1.4; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info.yoku-type-teacher .yoku-tail{ font-size: 13px; text-transform: uppercase; font-weight: 600 }
+.yoku-lp-course-left-thumbnail .yoku-author-thumbnail{ float: left; width: 48px; overflow: hidden; margin-right: 18px;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+.yoku-lp-course-left-thumbnail .yoku-author-content{ overflow: hidden; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .yoku-middle{ position: relative; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .course-wishlist{ cursor: pointer; opacity: 0; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .yoku-text{ display: none; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .yoku-lp-course-wishlist{ padding-top: 8px; transition: opacity 150ms; -webkit-transition: opacity 150ms; -moz-transition: opacity 150ms; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .yoku-lp-course-wishlist i{ margin-right: 12px; font-size: 18px; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .ajaxload_wishlist + .yoku-lp-course-wishlist{ opacity: 0.5; }
+.yoku-lp-course-left-thumbnail .yoku-type-wishlist .course-wishlist.on + .yoku-lp-course-wishlist i:before{ content: "\f02e"; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info.yoku-type-price{ padding-top: 5px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info .origin-price{ text-decoration: line-through; margin-right: 5px; font-size: 13px; }
+.yoku-lp-course-left-thumbnail .yoku-lp-course-bottom-info .price{ font-size: 20px; font-weight: 500; }
+
+/* course left thumbnail 2 */
+.yoku-lp-course-left-thumbnail2{ margin-bottom: 60px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-thumbnail-wrap{ max-width: 30%; margin-right: 60px; float: left; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-content-wrap{ overflow: hidden; padding-top: 20px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-title{ font-size: 28px; font-weight: 500; margin-bottom: 18px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-title-wrap{ position: relative; display: inline-block; padding-right: 75px; }
+.yoku-lp-course-left-thumbnail2 .course-price{ width: 75px; height: 75px; position: absolute; right: 0px; top: 0px; 
+	color: #fff; font-size: 25px; font-weight: 600; line-height: 70px; text-align: center;
+    border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; }
+.yoku-lp-course-left-thumbnail2 .course-price .origin-price{ display: none; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-excerpt{ font-size: 17px; }
+
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-wrap{ margin-bottom: 28px; font-weight: 600; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-wrap .yoku-lp-course-info{ float: left; margin-right: 25px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-wrap .yoku-head:after{ content: ":"; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-wrap .yoku-head{ display: inline; margin-right: 6px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-wrap .yoku-tail{ display: inline; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-wrap .yoku-type-review .yoku-tail{ font-weight: 500; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info.yoku-type-review .yoku-text{ display: none; }
+.yoku-lp-course-left-thumbnail2 .yoku-type-review .yoku-head{ display: none; }
+.yoku-lp-course-left-thumbnail2 .review-stars-rated{ vertical-align: middle; width: 72px; margin-right: 7px; margin-bottom: -5px; }
+.yoku-lp-course-left-thumbnail2 .review-stars-rated .review-stars.empty, 
+.yoku-lp-course-left-thumbnail2 .review-stars-rated .review-stars.filled{ height: auto; font-size: 12px; letter-spacing: 3px; }
+
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-info-bottom-wrap{ margin-top: 37px; position: relative; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info{ float: left; margin-left: 34px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info-content{ margin-left: 34px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info-divider{ position: absolute; top: 0px; bottom: 0px; border-left-width: 1px; border-left-style: solid; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info:first-child{ margin-left: 0px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info:first-child .yoku-lp-course-bottom-info-content{ margin-left: 0px; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info:first-child .yoku-lp-course-bottom-info-divider{ display: none; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info.yoku-type-teacher .yoku-head{ font-size: 16px; font-weight: 500; line-height: 1.4; }
+.yoku-lp-course-left-thumbnail2 .yoku-lp-course-bottom-info.yoku-type-teacher .yoku-tail{ font-size: 13px; text-transform: uppercase; font-weight: 600 }
+.yoku-lp-course-left-thumbnail2 .yoku-author-thumbnail{ float: left; width: 48px; overflow: hidden; margin-right: 18px;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+.yoku-lp-course-left-thumbnail2 .yoku-author-thumbnail img{ margin: 0px; }
+.yoku-lp-course-left-thumbnail2 .yoku-author-content{ overflow: hidden; }
+.yoku-lp-course-left-thumbnail2 .yoku-author-content .yoku-tail{ font-weight: 600; }
+
+/* course grid */
+.yoku-lp-course-grid .yoku-lp-course-title { font-size: 20px; margin-bottom: 30px; }
+.yoku-lp-course-grid .yoku-lp-course-excerpt{ margin-bottom: 35px; margin-top: -10px; }
+
+.yoku-lp-course-grid .yoku-lp-course-info-wrap{ font-size: 15px; margin-bottom: 18px; }
+.yoku-lp-course-grid .yoku-lp-course-info{ float: left; }
+.yoku-lp-course-grid .yoku-lp-course-info .yoku-head{ display: none; }
+.yoku-lp-course-grid .yoku-lp-course-info.yoku-type-category {float: left;}
+.yoku-lp-course-grid .yoku-lp-course-info.yoku-type-review{ float: right; }
+.yoku-lp-course-grid .yoku-lp-course-info.yoku-type-review .yoku-text{ display: none; }
+.yoku-lp-course-grid .review-stars-rated .review-stars.empty, 
+.yoku-lp-course-grid .review-stars-rated .review-stars.filled{ font-size: 13px; letter-spacing: 2px; width: 73px; height: 13px; }
+.yoku-lp-course-grid .review-stars-rated{ width: 73px; float: none; }
+
+.yoku-lp-course-grid .yoku-lp-course-info-bottom-wrap{ border-top-width: 1px; border-top-style: solid; padding: 16px 35px; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist{ float: right; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist .yoku-middle{ position: relative; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist .course-wishlist{ cursor: pointer; opacity: 0; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist .yoku-text{ display: none; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist .yoku-lp-course-wishlist{ transition: opacity 150ms; -webkit-transition: opacity 150ms; -moz-transition: opacity 150ms; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist .ajaxload_wishlist + .yoku-lp-course-wishlist{ opacity: 0.5; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-wishlist .course-wishlist.on + .yoku-lp-course-wishlist i:before{ content: "\f02e"; }
+
+.yoku-lp-course-grid .yoku-lp-course-bottom-info.yoku-type-price{ float: left; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info .origin-price{ font-size: 15px; text-decoration: line-through; margin-right: 5px; }
+.yoku-lp-course-grid .yoku-lp-course-bottom-info .price{ font-size: 20px; line-height: 1; }
+.yoku-lp-course-grid .yoku-lp-course-info-bottom2-wrap{ border-top-width: 1px; border-top-style: solid; padding: 16px 35px; }
+
+.yoku-lp-course-grid .yoku-lp-course-bottom2-info { display: inline-block; margin-right: 19px; }
+.yoku-lp-course-grid .yoku-lp-course-bottom2-info:last-child{ margin-right: 0px; }
+.yoku-lp-course-grid .yoku-lp-course-bottom2-info .yoku-head{ display: inline; margin-right: 12px; font-size: 15px; }
+.yoku-lp-course-grid .yoku-lp-course-bottom2-info .yoku-tail{ display: inline; font-weight: 500; }
+ 
+.yoku-lp-course-grid .yoku-lp-course-grid-frame{ padding: 25px 33px 0px; border-width: 1px; border-style: solid; }
+.yoku-lp-course-grid .yoku-lp-course-grid-frame .yoku-lp-course-info-bottom-wrap{ margin: 0px -35px; }
+.yoku-lp-course-grid .yoku-lp-course-grid-frame .yoku-lp-course-info-bottom2-wrap{ margin: 0px -35px; }
+
+.yoku-lp-course-grid.gdlr-core-without-frame .yoku-lp-course-thumbnail{ margin-bottom: 30px; }
+.yoku-lp-course-grid.gdlr-core-without-frame .yoku-lp-course-info-bottom-wrap{ padding-left: 0px; padding-right: 0px; }
+.yoku-lp-course-grid.gdlr-core-without-frame .yoku-lp-course-info-bottom2-wrap{ padding-left: 0px; padding-right: 0px; }
+
+.yoku-lp-course-grid .yoku-lp-course-grid-frame .yoku-lp-course-info-bottom-wrap.yoku-with-info2{ padding-top: 30px; }
+.yoku-lp-course-grid .yoku-lp-course-grid-frame .yoku-lp-course-info-bottom-wrap + .yoku-lp-course-info-bottom2-wrap{ border-top: none; padding-top: 0px; margin-top: -10px; padding-bottom: 30px; }
+
+/* course grid 2 */
+.yoku-lp-course-grid2 .yoku-lp-course-content-wrap{ background: #fff; }
+.yoku-lp-course-grid2.gdlr-core-without-thumbnail .yoku-lp-course-content-wrap{ margin-top: 0px; }
+
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail-hover-content{ font-size: 20px; line-height: 1.7; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; opacity: 0;
+	transition: opacity 200ms; -webkit-transition: opacity 200ms; -moz-transition: opacity 200ms; }
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail:hover .yoku-lp-course-thumbnail-hover-content{ opacity: 1; }
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail-hover-content-inner{ display: inline-block; position: relative; left: 50%; top: 50%;
+    transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail-hover-content .yoku-head{ display: inline; margin-right: 14px; }
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail-hover-content .yoku-tail{ display: inline; } 
+
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail-hover-content-inner > div{ margin-top: 7px; }
+.yoku-lp-course-grid2 .yoku-lp-course-thumbnail-hover-content-inner > div:first-child { margin-top: 0px; }
+.yoku-lp-course-grid2 .yoku-lp-type-category:before{ content: "\e076"; font-family: simple-line-icons; margin-right: 14px; display: inline; line-height: 1; }
+.yoku-lp-course-grid2 .yoku-lp-type-category .yoku-head{ display: none; }
+
+.yoku-lp-course-grid2 .yoku-lp-course-content-wrap{ margin: 0px 20px; padding: 25px 30px 35px; margin-top: -30px; position: relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
+.yoku-lp-course-grid2 .yoku-lp-course-title{ clear: left; margin-bottom: 10px; }
+.yoku-lp-course-grid2 .yoku-author-content{ font-size: 16px; margin-bottom: 2px; float: left; }
+.yoku-lp-course-grid2 .yoku-author-content .yoku-head, 
+.yoku-lp-course-grid2 .yoku-author-content .yoku-tail{ display: inline; margin-right: 5px; }
+.yoku-lp-course-grid2 .yoku-lp-review{ float: right; line-height: 1; margin-top: 2px; }
+.yoku-lp-course-grid2 .yoku-lp-review .yoku-head,
+.yoku-lp-course-grid2 .yoku-lp-review .yoku-tail .yoku-text{ display: none; }
+.yoku-lp-course-grid2 .review-stars-rated{ width: 80px; }
+.yoku-lp-course-grid2 .review-stars-rated .review-stars.empty, 
+.yoku-lp-course-grid2 .review-stars-rated .review-stars.filled{ font-size: 16px; width: 80px; height: 16px; }
+.yoku-lp-course-grid2 .price{ font-size: 24px; font-weight: 600; }
+.yoku-lp-course-grid2 .origin-price { text-decoration: line-through; margin-right: 14px; }
+.yoku-lp-course-grid2 .course-price{ margin-top: 10px; }
+
+/* course grid 3 */
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail{ margin-bottom: 30px; }
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail-hover-content{ font-size: 20px; line-height: 1.7; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; opacity: 0;
+	transition: opacity 200ms; -webkit-transition: opacity 200ms; -moz-transition: opacity 200ms; }
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail:hover .yoku-lp-course-thumbnail-hover-content{ opacity: 1; }
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail-hover-content-inner{ display: inline-block; position: relative; left: 50%; top: 50%;
+    transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail-hover-content .yoku-head{ display: inline; margin-right: 14px; }
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail-hover-content .yoku-tail{ display: inline; } 
+
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail-hover-content-inner > div{ margin-top: 7px; }
+.yoku-lp-course-grid3 .yoku-lp-course-thumbnail-hover-content-inner > div:first-child { margin-top: 0px; }
+.yoku-lp-course-grid3 .yoku-lp-type-category:before{ content: "\e076"; font-family: simple-line-icons; margin-right: 14px; display: inline; line-height: 1; }
+.yoku-lp-course-grid3 .yoku-lp-type-category .yoku-head{ display: none; }
+
+.yoku-lp-course-grid3 .yoku-lp-course-content-wrap{}
+.yoku-lp-course-grid3 .yoku-lp-course-title{ clear: left; }
+.yoku-lp-course-grid3 .yoku-author-content{ font-size: 16px; margin-bottom: 2px; float: left; }
+.yoku-lp-course-grid3 .yoku-author-content .yoku-head, 
+.yoku-lp-course-grid3 .yoku-author-content .yoku-tail{ display: inline; margin-right: 5px; }
+.yoku-lp-course-grid3 .yoku-lp-review{ float: right; line-height: 1; margin-top: 2px; }
+.yoku-lp-course-grid3 .yoku-lp-review .yoku-head,
+.yoku-lp-course-grid3 .yoku-lp-review .yoku-tail .yoku-text{ display: none; }
+.yoku-lp-course-grid3 .review-stars-rated{ width: 80px; }
+.yoku-lp-course-grid3 .review-stars-rated .review-stars.empty, 
+.yoku-lp-course-grid3 .review-stars-rated .review-stars.filled{ font-size: 16px; width: 80px; height: 16px; }
+.yoku-lp-course-grid3 .price{ font-size: 24px; font-weight: 600; }
+.yoku-lp-course-grid3 .origin-price { text-decoration: line-through; margin-right: 14px; }
+.yoku-lp-course-grid3 .course-price{ margin-top: 10px; }
+
+.yoku-lp-course-grid3.gdlr-core-with-frame .yoku-lp-course-thumbnail{ margin-bottom: 0px; }
+.yoku-lp-course-grid3.gdlr-core-with-frame .yoku-lp-course-content-wrap{ padding: 25px 30px; }
+
+/* course grid 4 */
+.yoku-lp-course-grid4 .yoku-lp-course-content-wrap{ padding-top: 30px; text-align: center; }
+.yoku-lp-course-grid4 .yoku-author-content .yoku-head{ display: inline; margin-right: 10px; }
+.yoku-lp-course-grid4 .yoku-author-content .yoku-tail{ display: inline; margin-right: 10px; }
+.yoku-lp-course-grid4 .yoku-lp-course-title{ margin-bottom: 13px; }
+.yoku-lp-course-grid4 .yoku-author-content{ margin-bottom: 20px; }
+
+/* course info item */
+.yoku-lp-course-info-item{ position: relative; }
+.yoku-lp-course-info-item .yoku-lp-course-info-item-inner{ margin-left: -30px; margin-right: -30px; }
+.yoku-lp-course-info-item .yoku-lp-course-info-divider{ position: absolute; top: 0px; bottom: 0px;
+    border-left-width: 1px; border-left-style: solid; }
+.yoku-lp-course-info-item .yoku-lp-course-info-content{ padding-left: 35px; padding-right: 35px; }
+.yoku-lp-course-info-item .yoku-author-thumbnail{ float: left; width: 45px; overflow: hidden; margin-right: 18px;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+.yoku-lp-course-info-item .yoku-author-thumbnail img{ margin: 0px; }
+.yoku-lp-course-info-item .yoku-head,
+.yoku-lp-course-info-item .yoku-middle{ font-size: 16px; }
+.yoku-lp-course-info-item .yoku-lp-course-info{ font-weight: 500; line-height: 1.5; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist{ cursor: pointer; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist i{ font-size: 18px; margin-right: 12px; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist .yoku-middle{ padding-top: 10px; font-weight: 400; }
+.yoku-lp-course-info-item .yoku-author-content{ overflow: hidden; }
+.yoku-lp-course-info-item .yoku-tail{ font-size: 13px; text-transform: uppercase; }
+.yoku-lp-course-info-item .review-stars-rated{ vertical-align: middle; width: 72px; margin-right: 7px; margin-top: 2px; }
+.yoku-lp-course-info-item .review-stars-rated .review-stars.empty, 
+.yoku-lp-course-info-item .review-stars-rated .review-stars.filled{ height: auto; font-size: 12px; letter-spacing: 3px; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist .yoku-middle{ position: relative; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist .course-wishlist{ cursor: pointer; opacity: 0; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist .yoku-lp-course-wishlist{ transition: opacity 150ms; -webkit-transition: opacity 150ms; -moz-transition: opacity 150ms; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist .ajaxload_wishlist + .yoku-lp-course-wishlist{ opacity: 0.5; }
+.yoku-lp-course-info-item .yoku-lp-course-info.yoku-type-wishlist .course-wishlist.on + .yoku-lp-course-wishlist i:before{ content: "\f02e"; }
+
+.yoku-lp-course-price-item button{ min-width: 175px; margin: 0px auto; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; display: block; }
+.yoku-lp-course-price-item .retake-course, 
+.yoku-lp-course-price-item .enroll-course, 
+.yoku-lp-course-price-item .purchase-course{ display: block; }
+.yoku-lp-course-price-item .course-price{ text-align: center; line-height: 1; margin-bottom: 30px; }
+.yoku-lp-course-price-item .course-price .price{ font-size: 72px; }
+.yoku-lp-course-price-item .course-price .price .yoku-currency-symbol{ font-size: 0.6em; vertical-align: super; margin-right: 3px; }
+.yoku-lp-course-price-item .origin-price{ text-decoration: line-through; display: block; margin-bottom: 10px; }
+
+/* course search */
+.yoku-lp-course-search-item .yoku-lp-course-search-column{ padding-left: 10px; }
+.yoku-lp-course-search-item .yoku-lp-course-search-column:first-child{ padding-left: 0px; }
+
+.yoku-lp-course-search-item select{ font-size: 13px; height: 50px; padding: 12px 20px; margin: 0px; width: 100%; border: 0px; outline: none;
+	text-transform: uppercase; font-weight: 500; letter-spacing: 1px;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; 
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.yoku-lp-course-search-item select, 
+.yoku-lp-course-search-item select:focus{ 
+	box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.yoku-lp-course-search-item .yoku-combobox{ position: relative; }
+.yoku-lp-course-search-item .yoku-combobox:after{ font-family: fontAwesome; content: "\f0dd"; font-size: 14px; line-height: 20px;
+	position: absolute; right: 16px; top: 50%; margin-top: -13px; pointer-events: none; }
+.yoku-lp-course-search-item input[name="s"]{ width: 100%; padding: 12px 20px; margin: 0px; font-size: 16px; font-style: italic; height: 50px; border: none; box-shadow: none; 
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+.yoku-lp-course-search-item input[type="submit"]{ font-size: 13px; text-transform: uppercase; letter-spacing: 1px; 
+	font-weight: 600; width: 100%; height: 50px; margin: 0px; border: 0px; outline: none;
+    border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+.yoku-lp-course-search.yoku-lp-align-center{ margin-left: auto; margin-right: auto; }
+.yoku-lp-course-search.yoku-lp-align-left{ margin-right: auto; }
+.yoku-lp-course-search.yoku-lp-align-right{ margin-left: auto; }
+
+.yoku-lp-course-search.yoku-lp-size-2 .yoku-lp-course-search-column{ width: 40%; float: left; }
+.yoku-lp-course-search.yoku-lp-size-2 .yoku-lp-course-search-column.yoku-lp-type-button{ width: 20%; }
+.yoku-lp-course-search.yoku-lp-size-3 .yoku-lp-course-search-column{ width: 26.66%; float: left; }
+.yoku-lp-course-search.yoku-lp-size-3 .yoku-lp-course-search-column.yoku-lp-type-button{ width: 20%; }
+
+
+@media screen and (max-width: 767px){    
+    .yoku-lp-course-info-item .yoku-lp-course-info{ margin-bottom: 20px; }
+    .yoku-lp-course-info-item .yoku-lp-course-info-divider{ display: none; }
+
+    .yoku-lp-course-search-item .yoku-lp-course-search-column{ padding-left: 0px; margin-bottom: 10px; }
+    .yoku-lp-course-search.yoku-lp-size-2 .yoku-lp-course-search-column{ width: auto; float: none; }
+	.yoku-lp-course-search.yoku-lp-size-2 .yoku-lp-course-search-column.yoku-lp-type-button{ width: auto; }
+	.yoku-lp-course-search.yoku-lp-size-3 .yoku-lp-course-search-column{ width: auto; float: none; }
+	.yoku-lp-course-search.yoku-lp-size-3 .yoku-lp-course-search-column.yoku-lp-type-button{ width: auto; }
+}
+
+.wp-core-ui .yoku-lp-course-price-item button{ padding: 13px 28px; height: auto; font-size: 13px; 
+	font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border: 0px; box-shadow: none; line-height: 1.7;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+.gdlr-core-personnel-list .yoku-lp-class-count{ font-size: 18px; margin-bottom: 8px; display: inline-block; border-bottom-width: 1px; border-bottom-style: solid; }
